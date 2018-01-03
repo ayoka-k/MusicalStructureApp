@@ -1,0 +1,13 @@
+<resources>
+    <!-- Title for the application -->
+    <string name="app_name">MusicalStructureApp</string>
+
+    <!-- Category name for music for workout -->
+    <string name="category_workout">Ready for a workout?</string>
+
+    <!-- Category name for Norwegian music -->
+    <string name="category_norwegian">Can you hear the Valkyries\' call?</string>
+
+    <!-- Category name for music for parties -->
+    <string name="category_party">Having a party?</string>
+</resources>

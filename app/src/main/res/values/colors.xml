@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary color of the app (app bar) -->
+    <color name="color_primary">#3F51B5</color>
+
+    <!-- Primary dark color of the app (status bar) -->
+    <color name="color_primary_dark">#303F9F</color>
+
+    <!-- Accent color of the app -->
+    <color name="color_accent">#FF4081</color>
+
+    <!-- Background color for the app -->
+    <color name="app_background">#E0E0E0</color>
+
+    <!-- Background color for the workout music category -->
+    <color name="category_workout">#E65100</color>
+
+    <!-- Background color for the Norwegian music category -->
+    <color name="category_norwegian">#0D47A1</color>
+
+    <!-- Background color for the party music category -->
+    <color name="category_party">#B71C1C</color>
+</resources>
