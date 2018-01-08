@@ -4,10 +4,13 @@ public class Song {
 
     private String mSong;
     private String mArtist;
+    private int mPlayButton;
 
-    public Song(String song, String artist) {
+    public Song(String song, String artist, int playButton) {
         mSong = song;
         mArtist = artist;
+        mPlayButton = playButton;
+
     }
 
     public String getSong() {
@@ -17,4 +20,7 @@ public class Song {
     public String getArtist() {
         return mArtist;
     }
+
+    public int getPlayButton() { return mPlayButton; }
+
 }

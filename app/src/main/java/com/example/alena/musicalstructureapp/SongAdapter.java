@@ -1,10 +1,13 @@
 package com.example.alena.musicalstructureapp;
 
 import android.app.Activity;
+import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.util.List;
@@ -36,6 +39,9 @@ public class SongAdapter extends ArrayAdapter<Song> {
         // Get the version name from the current Song object and
         // set this text on the name TextView
         artistTextView.setText(currentSong.getArtist());
+
+        ImageView playImage = listItemView.findViewById(R.id.play_button);
+        playImage.setImageResource(currentSong.getPlayButton());
 
         return listItemView;
     }
