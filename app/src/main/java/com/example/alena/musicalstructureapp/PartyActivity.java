@@ -1,32 +1,75 @@
 package com.example.alena.musicalstructureapp;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
+import android.view.View.OnClickListener;
 import android.widget.ListView;
-
+import android.widget.TextView;
 import java.util.ArrayList;
 
-public class PartyActivity extends AppCompatActivity{
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.song_list);
+public class PartyActivity extends AppCompatActivity {
 
-        ArrayList<Song> partySongs = new ArrayList<>();
-        partySongs.add(new Song("Feel It Still", "Portugal. The Man", R.drawable.play_icon));
-        partySongs.add(new Song("Lights", "Hurts", R.drawable.play_icon));
-        partySongs.add(new Song("Wherever I Go", "OneRepublic", R.drawable.play_icon));
-        partySongs.add(new Song("Good Grief", "Bastille", R.drawable.play_icon));
-        partySongs.add(new Song("Despacito", "Luis Fonsi", R.drawable.play_icon));
-        partySongs.add(new Song("Shape of You", "Ed Sheeran", R.drawable.play_icon));
-        partySongs.add(new Song("Sugar", "Maroon 5", R.drawable.play_icon));
-        partySongs.add(new Song("Can\'t Stop", "Red Hot Chili Peppers", R.drawable.play_icon));
-        partySongs.add(new Song("Lean On", "Major Lazer", R.drawable.play_icon));
-        partySongs.add(new Song("Don\'t Worry", "Madcon", R.drawable.play_icon));
-        partySongs.add(new Song("I\'m Gonna Be(500 Miles)", "The Proclaimers", R.drawable.play_icon));
+  @Override
+  protected void onCreate(Bundle savedInstanceState) {
+    super.onCreate(savedInstanceState);
+    setContentView(R.layout.song_list);
 
-        SongAdapter adapter = new SongAdapter(this, partySongs);
-        ListView listView = findViewById(R.id.list_view_layout);
-        listView.setAdapter(adapter);
-    }
+    ArrayList<Song> partySongs = new ArrayList<>();
+    partySongs.add(new Song(getString(R.string.party_song1),
+        getString(R.string.party_artist1),
+        R.drawable.play_icon));
+    partySongs.add(new Song(getString(R.string.party_song2),
+        getString(R.string.party_artist2),
+        R.drawable.play_icon));
+    partySongs.add(new Song(getString(R.string.party_song3),
+        getString(R.string.party_artist3),
+        R.drawable.play_icon));
+    partySongs.add(new Song(getString(R.string.party_song4),
+        getString(R.string.party_artist4),
+        R.drawable.play_icon));
+    partySongs.add(new Song(getString(R.string.party_song5),
+        getString(R.string.party_artist5),
+        R.drawable.play_icon));
+    partySongs.add(new Song(getString(R.string.party_song6),
+        getString(R.string.party_artist6),
+        R.drawable.play_icon));
+    partySongs.add(new Song(getString(R.string.party_song7),
+        getString(R.string.party_artist7),
+        R.drawable.play_icon));
+    partySongs.add(new Song(getString(R.string.party_song8),
+        getString(R.string.party_artist8),
+        R.drawable.play_icon));
+    partySongs.add(new Song(getString(R.string.party_song9),
+        getString(R.string.party_artist9),
+        R.drawable.play_icon));
+    partySongs.add(new Song(getString(R.string.party_song10),
+        getString(R.string.party_artist10),
+        R.drawable.play_icon));
+    partySongs.add(new Song(getString(R.string.party_song11),
+        getString(R.string.party_artist11),
+        R.drawable.play_icon));
+
+    SongAdapter adapter = new SongAdapter(this, partySongs);
+    ListView listView = findViewById(R.id.list_view_layout);
+
+    //Create new text view
+    TextView returnToLibrary = new TextView(this);
+    returnToLibrary.setText(R.string.returnToMainPage);
+    returnToLibrary.setTextAppearance(this, android.R.style.TextAppearance_Large);
+
+    //Set OnClickListener on the returnToLibrary text view
+    returnToLibrary.setOnClickListener(new OnClickListener() {
+      @Override
+      public void onClick(View v) {
+        Intent mainPage = new Intent(PartyActivity.this, MainActivity.class);
+        startActivity(mainPage);
+      }
+    });
+
+    //Set the returnToLibrary text view to be a footer view
+    listView.addFooterView(returnToLibrary);
+    listView.setAdapter(adapter);
+  }
 }

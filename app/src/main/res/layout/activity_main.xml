@@ -1,25 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+  <LinearLayout
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:background="@color/app_background"
     android:orientation="vertical">
 
     <TextView
-        android:id="@+id/workout"
-        style="@style/CategoryStyle"
-        android:background="@color/category_workout"
-        android:text="@string/category_workout" />
+      android:id="@+id/workout"
+      style="@style/CategoryStyle"
+      android:background="@drawable/workout"
+      android:text="@string/category_workout"/>
 
     <TextView
-        android:id="@+id/norwegian"
-        style="@style/CategoryStyle"
-        android:background="@color/category_norwegian"
-        android:text="@string/category_norwegian" />
+      android:id="@+id/norwegian"
+      style="@style/CategoryStyle"
+      android:background="@drawable/norwegian"
+      android:text="@string/category_norwegian"/>
 
     <TextView
-        android:id="@+id/party"
-        style="@style/CategoryStyle"
-        android:background="@color/category_party"
-        android:text="@string/category_party" />
-</LinearLayout>
+      android:id="@+id/party"
+      style="@style/CategoryStyle"
+      android:background="@drawable/party"
+      android:text="@string/category_party"/>
+  </LinearLayout>
+</ScrollView>

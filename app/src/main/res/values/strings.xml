@@ -1,13 +1,94 @@
 <resources>
-    <!-- Title for the application -->
-    <string name="app_name">MusicalStructureApp</string>
+  <!-- Title for the application -->
+  <string name="app_name">MusicalStructureApp</string>
 
-    <!-- Category name for music for workout -->
-    <string name="category_workout">Ready for a workout?</string>
+  <!-- Category name for music for workout -->
+  <string name="category_workout">Ready for a workout?</string>
 
-    <!-- Category name for Norwegian music -->
-    <string name="category_norwegian">Can you hear the Valkyries\' call?</string>
+  <!-- Category name for Norwegian music -->
+  <string name="category_norwegian">Can you hear the Valkyries\' call?</string>
 
-    <!-- Category name for music for parties -->
-    <string name="category_party">Having a party?</string>
+  <!-- Category name for music for parties -->
+  <string name="category_party">Having a party?</string>
+
+  <!-- Footer view for each category -->
+  <string name="returnToMainPage">Return to Library</string>
+
+  <!-- Songs for workout category -->
+  <string name="workout_song1">Used To Have It All</string>
+  <string name="workout_song2">Find Me</string>
+  <string name="workout_song3">Sweet Lovin\'</string>
+  <string name="workout_song4">Blame</string>
+  <string name="workout_song5">All The Way Up</string>
+  <string name="workout_song6">Lost &amp; Found</string>
+  <string name="workout_song7">Run Wild</string>
+  <string name="workout_song8">Places</string>
+  <string name="workout_song9">Come Get It Bae</string>
+  <string name="workout_song10">ILYSM</string>
+  <string name="workout_song11">Snake Eyes</string>
+  <string name="workout_song12">Thunder</string>
+  <string name="workout_song13">Outside</string>
+  <string name="workout_song14">Can\'t Hold Us</string>
+  <string name="workout_song15">Hot Right Now</string>
+
+  <!-- Artists for workout category -->
+  <string name="workout_artist1">Fais</string>
+  <string name="workout_artist2">Sigma</string>
+  <string name="workout_artist3">Sigala</string>
+  <string name="workout_artist4">Zeds Dead</string>
+  <string name="workout_artist5">Fat Joe</string>
+  <string name="workout_artist6">Borgeous</string>
+  <string name="workout_artist7">Hardwell</string>
+  <string name="workout_artist8">Martin Solveig</string>
+  <string name="workout_artist9">Pharrell Williams</string>
+  <string name="workout_artist10">Steve Aoki &amp; Autoerotique</string>
+  <string name="workout_artist11">Feint</string>
+  <string name="workout_artist12">Imagine Dragons</string>
+  <string name="workout_artist13">Calvin Harris</string>
+  <string name="workout_artist14">Macklemore &amp; Ryan Lewis</string>
+  <string name="workout_artist15">DJ Fresh</string>
+
+  <!-- Songs for norwegian category -->
+  <string name="norwegian_song1">Hagal</string>
+  <string name="norwegian_song2">Bjarkan</string>
+  <string name="norwegian_song3">Heimta</string>
+  <string name="norwegian_song4">Thurs</string>
+  <string name="norwegian_song5">Jara</string>
+  <string name="norwegian_song6">Laukr</string>
+  <string name="norwegian_song7">Kauna</string>
+  <string name="norwegian_song8">Algir - Stien klarnar</string>
+  <string name="norwegian_song9">Dagr</string>
+  <string name="norwegian_song10">Tyr</string>
+  <string name="norwegian_song11">UruR</string>
+  <string name="norwegian_song12">Isa</string>
+  <string name="norwegian_song13">Wunjo</string>
+
+  <!-- Artists for norwegian category -->
+  <string name="norwegian_artist">Wardruna</string>
+
+  <!-- Songs for party category -->
+  <string name="party_song1">Feel It Still</string>
+  <string name="party_song2">Lights</string>
+  <string name="party_song3">Wherever I Go</string>
+  <string name="party_song4">Good Grief</string>
+  <string name="party_song5">Despacito</string>
+  <string name="party_song6">Shape of You</string>
+  <string name="party_song7">Sugar</string>
+  <string name="party_song8">Can\'t Stop</string>
+  <string name="party_song9">Lean On</string>
+  <string name="party_song10">Don\'t Worry</string>
+  <string name="party_song11">I\'m Gonna Be(500 Miles)</string>
+
+  <!-- Artists for party category -->
+  <string name="party_artist1">Portugal. The Man</string>
+  <string name="party_artist2">Hurts</string>
+  <string name="party_artist3">OneRepublic</string>
+  <string name="party_artist4">Bastille</string>
+  <string name="party_artist5">Luis Fonsi</string>
+  <string name="party_artist6">Ed Sheeran</string>
+  <string name="party_artist7">Maroon 5</string>
+  <string name="party_artist8">Red Hot Chili Peppers</string>
+  <string name="party_artist9">Major Lazer</string>
+  <string name="party_artist10">Madcon</string>
+  <string name="party_artist11">The Proclaimers</string>
 </resources>

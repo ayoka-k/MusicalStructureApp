@@ -1,9 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Height of each list item -->
-    <dimen name="list_item_height">150dp</dimen>
+  <!-- Height of each list item -->
+  <dimen name="list_item_height">200dp</dimen>
 
-    <!-- Default screen margins, per Android Design guidelines. -->
-    <dimen name="activity_horizontal_margin">16dp</dimen>
-    <dimen name="activity_vertical_margin">16dp</dimen>
+  <!-- Padding for category text view -->
+  <dimen name="category_view_padding">16dp</dimen>
+
+  <!-- Margin for category text view -->
+  <dimen name="category_view_margin">8dp</dimen>
+
+  <!-- Text size for category text view -->
+  <dimen name="category_text_size">18sp</dimen>
+
+  <!-- Dimens for ImageView play_icon in list_item.xml -->
+  <dimen name="play_icon_layout_width">35dp</dimen>
+  <dimen name="play_icon_layout_height">35dp</dimen>
+
+  <!-- Default screen margins, per Android Design guidelines. -->
+  <dimen name="activity_horizontal_margin">16dp</dimen>
+  <dimen name="activity_vertical_margin">16dp</dimen>
 </resources>
